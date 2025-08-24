@@ -7,3 +7,9 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+@media (max-width: $tablet-width) {
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+}
